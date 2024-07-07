@@ -1,0 +1,9 @@
+* {
+  border-style: groove;
+  border-color:brown;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
