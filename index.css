@@ -3,15 +3,46 @@
   border-color:brown;
 }
 
+body {
+  display: flex;
+  justify-content: center;
+}
+
 .page {
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 30px;
-  max-width: 640px;
+  max-width: 350px;
   flex-grow: 1;
 }
 
-div {
-  text-align: center;
+.banner, .name, .social-icons {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.headshot {
+  width: 100px;
+}
+
+.social-icons {
+  justify-content: space-evenly;
+}
+
+.si {
+  width: 25px;
+}
+
+.link {
+  display: flex;
+  justify-content: left;
+}
+
+.plink {
+  width: 60px;
+}
+
+.hlink {
+  margin-left: 40px;
 }
